@@ -9,7 +9,7 @@ export default function Home() {
           alt="logo of school"
           width={60}
           height={20} />
-        <h1 className="text-2xl font-serif bg-amber-500 max-w-70 flex-1 self-center justify-center pl-2 pr-2">Janta Higher Secondary Shool Shree Nager</h1>
+        <h1 className="text-2xl text-gray-50 font-serif  max-w-70 flex-1 self-center justify-center pl-2 pr-2">Janta Higher Secondary Shool Shree Nager</h1>
       </div>
       
   
