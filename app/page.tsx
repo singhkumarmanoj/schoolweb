@@ -12,7 +12,7 @@ export default function Home() {
             height={60} 
           />
         </a>
-        
+
         <a href="/">
         <h1 className="text-2xl text-white font-serif  max-w-70 flex-1 self-center justify-center pl-1 pr-1">Janta Higher Secondary Shool Shree Nager</h1>
         </a>
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-center mr-3">
-          <a href="https://www.facebook.com/singhkumarmanoj10/">
+          <a href="https://www.facebook.com/">
             
           <Image
             src="/school/f.png"
