@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="dark:bg-green-950 w-full">
-      <div className="bg-blue-600 w-full flex justify-center h-20 items-center">
+      <div className="bg-blue-600 w-full flex justify-center h-auto items-center">
         <a href="/">
           <Image className="rounded-full mr-1 flex items-center h-auto"
             src="/school/image1.png"
@@ -12,9 +12,9 @@ export default function Home() {
             height={60} 
           />
         </a>
+        
         <a href="/">
-
-        <h1 className="text-2xl text-white font-serif  max-w-70 flex-1 self-center justify-center pl-2 pr-2">Janta Higher Secondary Shool Shree Nager</h1>
+        <h1 className="text-2xl text-white font-serif  max-w-70 flex-1 self-center justify-center pl-1 pr-1">Janta Higher Secondary Shool Shree Nager</h1>
         </a>
       </div>
 
