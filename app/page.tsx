@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="flex items-center mr-3">
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/profile.php?id=61594231994215">
             
           <Image
             src="/school/f.png"
