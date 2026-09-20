@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+import { MapPin,
+         BookImage
+        
+ } from "lucide-react";
+
 export default function Home() {
   return (
     <div className="dark:bg-green-950 w-full">
@@ -32,14 +37,19 @@ export default function Home() {
       </div>
 
 
-      <div className="mt-2 ml-3">
-        <a className=" text-blue-300 hover:text-blue-500  font-serif hover:underline decoration-dotted" href="/ImagePart">Click for more Images</a>
+      <div className="mt-2 ml-1 flex items-center p-1 bg-blue-950 max-w-60 justify-center rounded-2xl gap-1">
+        <BookImage />
+        <a className="text-blue-300 hover:text-blue-500  font-serif hover:underline decoration-dotted text-lg" href="/ImagePart">Click for more images</a>
       </div>
 
-
+        {/* contact Us part */}
       <div className="mt-5">
-        <h1 className="text-2xl font-bold">Contact Us</h1>
-        <a className="font-serif ml-3 text-sm text-blue-300 hover:text-blue-500 hover:underline decoration-dotted" href="https://www.google.com/maps/place/Janta+Higher+Secondary+School+Shree+Nagar/@27.4384984,84.8520901,291351m/data=!3m1!1e3!4m6!3m5!1s0x39ec7b3a29876849:0xa4674e25cfd386b1!8m2!3d26.9686548!4d85.7094581!16s%2Fg%2F11rcwxhdt5?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D">Visit in map</a>
+        <h1 className="text-2xl font-bold ml-[1%]">Contact Us</h1>
+        <div  className="w-auto flex items-center bg-blue-950 min-w-23 max-w-35 rounded-2xl p-1 justify-center">
+          <MapPin />
+          <a className="font-serif ml-1 text-lg text-blue-300 hover:text-blue-500 hover:underline decoration-dotted" href="https://www.google.com/maps/place/Janta+Higher+Secondary+School+Shree+Nagar/@27.4384984,84.8520901,291351m/data=!3m1!1e3!4m6!3m5!1s0x39ec7b3a29876849:0xa4674e25cfd386b1!8m2!3d26.9686548!4d85.7094581!16s%2Fg%2F11rcwxhdt5?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D">Visit in map
+          </a>
+        </div>
       </div>
 
 
